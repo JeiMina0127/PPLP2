@@ -1,0 +1,5 @@
+Al realizar una petición POST a la ruta /reportes, el servidor recibe la información enviada en formato JSON y la registra en la lista de reportes.
+
+Cuando se realiza una petición GET a la misma ruta, el servidor devuelve todos los reportes que han sido almacenados previamente. Esto permite consultar la información registrada y verificar que los datos enviados fueron guardados correctamente.
+
+De esta manera, la ruta POST sirve para agregar nuevos reportes y la ruta GET sirve para consultar los reportes existentes.
